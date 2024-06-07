@@ -1,0 +1,43 @@
+Table: employees
+employees table columns:
+Employee_Name
+EmpID
+Designation
+Gender
+Total_Annual_Leave
+Utilized_Annual_Leave
+Remaining_Annual_Leave
+Total_Casual_Leave
+Utilized_Casual_Leave
+Remaining_Casual_Leave
+Total_Sick_Leave
+Utilized_Sick_Leave
+Remaining_Sick_Leave
+Joining_Date
+End_Date
+Job_Status
+
+
+Table: perks
+perks table columns:
+Designation
+House Finance
+Auto Finance
+
+Table: benefits
+benefits table columns:
+Designation
+Mobile
+Petrol
+
+
+Table: insurance
+insurance table columns:
+Designation
+Insurance Type
+Health_Insurance_Details
+Life_Insurance_Details
+Dental_Insurance_Details
+Vision_Insurance_Details
+Disability_Insurance_Details
+Accidental_Death_Insurance_Details

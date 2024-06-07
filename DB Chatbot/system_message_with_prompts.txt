@@ -1,0 +1,167 @@
+Sure, here are some prompts to check the efficiency of your bot:
+
+1. User: How do I enroll in company benefits?
+   - Expected Response: benefit enrollment form
+
+2. User: Can you help me with the new employee orientation process?
+   - Expected Response: onboarding form
+
+3. User: What opportunities are there for professional development?
+   - Expected Response: training form
+
+4. User: What are the rules during the probation period?
+   - Expected Response: probation form
+
+5. User: Are there any specific guidelines for office attire?
+   - Expected Response: dress form
+
+--------------------------------------------------------------
+
+User: How do I request time off?
+Expected Response: leave request form
+
+User: Can you provide me with the expense reimbursement procedure?
+Expected Response: expense report form
+
+User: How do I report an IT issue?
+Expected Response: IT support ticket
+
+User: What is the process for requesting a vacation?
+Expected Response: vacation request form
+
+User: How do I submit a suggestion for improving workplace safety?
+Expected Response: safety suggestion form
+
+--------------------------------------------------------------
+# Out of the topic
+
+User: How can I sign up for the company's fitness center?
+Expected Response: gym membership form
+User: Who should I contact to book a conference room?
+Expected Response: room reservation form
+User: How do I report a maintenance issue in the office?
+Expected Response: maintenance request form
+User: Can you provide me with information about the company's holiday schedule?
+Expected Response: holiday calendar
+User: Where can I find information about the company's social events?
+Expected Response: social events calendar
+
+
+--------------------------------------------------------------
+
+SYSTEM MESSAGE:
+
+
+Your task is to understand the context of the given text and identify the type of form or document the user is asking for. And then you have to detect the keyword which is form or document and respond along with category keyword.
+Your response should be one word answer.
+If the employee is asking any questions related to the following topics, please return the corresponding keywords:
+
+Onboarding Assistance Keyword: onboarding form
+Benefits Enrollment Keyword: benefit enrollment form
+Training and Development Keyword: training form
+Probation Period Clarification Keyword: probation form
+Dress Code Guidelines Keyword: dress form
+
+Performance Review Preparation Keyword: performance form
+Time Off Request Keyword: time off form
+Policy Updates Keyword: policy form
+Promotion Process Information Keyword: promotion form
+Retirement Planning Resources Keyword: retirement planning form
+Employee Assistance Program (EAP) Keyword: employee assistance form 
+
+
+Please respond within the scope of the following keywords if the query fall into these topics and if not then response with N/A.
+Make sure your response should be one word.
+
+I want you to strictly follow these examples:
+
+Example 1:
+User: Are there any specific document for office attire?
+Your response: dress form
+
+Example 2:
+User: How do I prepare for my performance review?
+Your response: 
+1- Review your goals: Look back at the goals set during your last review and assess your progress.
+2- Document achievements: Make a list of your accomplishments, completed projects, and any positive feedback you've received.
+3- Identify challenges: Be ready to discuss any obstacles you've faced and how you've overcome them.
+4- Seek feedback: Ask colleagues for feedback to gain different perspectives on your performance.
+5- Prepare to discuss development: Think about areas where you'd like to improve and how you plan to do so.
+6- Have questions ready: Prepare questions about your performance, career development, and the company's goals.
+
+Example 3:
+User: How do I request a parking permit?
+Expected Response: N/A
+
+
+
+
+------------------------------------------------------------
+
+User: What is the process for enrolling in company benefits?
+Your response: benefit enrollment form
+
+User: Can you guide me through the new employee orientation?
+Your response: onboarding form
+
+User: How do I sign up for professional development courses?
+Your response: training form
+
+User: What are the rules during the probation period?
+Your response: probation form
+
+User: Is there a dress code policy for the office?
+Your response: dress form
+
+User: How do I prepare for my performance review?
+Your response: performance form
+
+User: How do I request time off for a vacation?
+Your response: time off form
+
+User: Where can I find the latest company policies?
+Your response: policy form
+
+User: What is the process for applying for a promotion?
+Your response: promotion form
+
+User: How do I access retirement planning resources?
+Your response: retirement planning form
+
+User: How do I access the Employee Assistance Program (EAP)?
+Your response: employee assistance form
+
+User: How do I request a new computer?
+Your response: N/A
+
+----------------------------------------------------------------
+
+User: Can you help me with benefits enrollment? (Expecting: benefit enrollment form)
+User: What's the deal with the new employee orientation? (Expecting: onboarding form)
+User: I need training on the new software, can you help? (Expecting: training form)
+User: What's the probation period all about? (Expecting: probation form)
+User: Is there a dress code for the office? (Expecting: dress form)
+User: How do I prepare for my performance review? (Expecting: performance form)
+User: I need some time off, how do I request it? (Expecting: time off form)
+User: Where can I find the latest company policies? (Expecting: policy form)
+User: How do I apply for a promotion? (Expecting: promotion form)
+User: I'm confused about retirement planning, can you help? (Expecting: retirement planning form)
+User: I need help with a personal issue, is there an Employee Assistance Program? (Expecting: employee assistance form)
+User: Can you help me with my parking permit? (Expecting: N/A)
+User: How do I enroll in the company's fitness program? (Expecting: N/A, but might confuse with benefits)
+User: What's the policy on working from home? (Expecting: policy form, but might confuse with time off)
+User: Can you help me with my computer issues? (Expecting: N/A, but might confuse with IT support)
+
+
+--------------------------------------------------------
+
+User: How do I enroll in the company's health insurance plan?
+User: Is there a form I need to fill out for the new employee orientation?
+User: What is the process for requesting time off?
+User: Can you explain the performance review process?
+User: Where can I find information about the dress code policy?
+User: How can I access the employee assistance program?
+User: What are the requirements for requesting a promotion?
+User: Are there any updates to the company's vacation policy?
+User: How do I sign up for retirement planning resources?
+User: Is there a probation period for new employees?
